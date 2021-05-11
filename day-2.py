@@ -2,7 +2,7 @@
 
 age = input("What is your current age?")
 
-age = 90 - age
+age = 90 - int(age)
 days = age * 365
 months = age * 12
 weeks = age * 52
