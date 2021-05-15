@@ -1,4 +1,4 @@
-# Fizz Buzz game
+# Fizz Buzz program
 output = ""
 for item in range(1, 101):
     output = item
