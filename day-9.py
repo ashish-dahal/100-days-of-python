@@ -10,6 +10,7 @@ while have_more_bidders == "yes":
     bid = int(input("What is your bid? : "))
     bids.update({name: bid})
     have_more_bidders = input("Are there any other bidders? Type 'yes' or 'no': ")
+    os.system("cls")
 
 print(
     f"The winner is {max(bids, key=bids.get)} with a bid of {max(list(bids.values()))}."
